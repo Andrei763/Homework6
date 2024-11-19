@@ -44,6 +44,7 @@ public class StatsService {
         }
         return count;
     }
+
     public int tMonthsBelowAverage(long[] sales) {
         int count = 0;
         long avarage = calculateAverageSale(sales);
